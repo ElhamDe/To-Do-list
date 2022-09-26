@@ -21,7 +21,7 @@ function allTasks(){
     clearButton.style.pointerEvents = "none";
 }
 
-//console.log(inputField,todoList,pendingNum,clearButton);
+
 //add task while we put value in text area and press enter
 inputField.addEventListener("keyup", (e) => {
     let inputVal = inputField.value.trim();
